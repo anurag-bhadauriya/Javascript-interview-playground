@@ -2,9 +2,11 @@
 
 References: 
 - https://dmitripavlutin.com/javascript-closure/
+- https://javascript.plainenglish.io/grokking-closure-in-javascript-7e8194924398
 - https://dev.to/midasxiv/series/2609
 - https://javascript.plainenglish.io/ultimate-interview-questions-on-javascript-closures-8dd12a210677
 - https://dmitripavlutin.com/javascript-closures-interview-questions/
+- https://javascript.plainenglish.io/practical-usage-of-closures-in-javascript-b3203770ba2
 
 ## Questions on Closures
 
