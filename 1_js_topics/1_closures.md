@@ -168,3 +168,121 @@ References:
     ```
 
     Answer: The output will be 15 and 25. This is because the inner function has access to the x variable declared in the outer function's scope, which is initially assigned the value of 10. When innerFunc is called for the first time, it logs the sum of x and y, which is 15, and then reassigns the value of x to 20. When innerFunc is called for the second time, it logs the sum of the new value of x and y, which is 25.
+
+11. ### What will be the output of the following code?
+    
+    ```js
+    function foo() {
+        let a = 0;
+
+        function bar(){
+            console.log('Number is : ', a);
+        }
+
+        function increase(num){
+            a += num;
+        }
+
+        return [bar, increase];
+    }
+
+    let val = foo();
+    val[0]();
+    val[1](5);
+    val[0]();
+
+    let val2 = foo();
+    val2[0]();
+    val2[1](5);
+    val2[0]();
+    ```
+
+12. ### What will be the output of the following code?
+    
+    ```js
+    let countEven = 0;
+    const items = [1, 5, 100, 10];
+
+    const callback = (number) => {
+        if(number%2 === 0){
+            countEven++;
+        }
+    }
+
+    items.forEach(callback);
+    console.log(countEven);
+    ```
+
+13. ### What will be the output of the following code?
+    
+    ```js
+    (function immediateA(a) {
+        return (function immediateB(b) {
+            console.log(a); // What is logged?
+        })(1);
+    })(0);
+    ```
+
+14. ### What will be the output of the following code?
+    
+    ```js
+    let count = 0;
+    (function immediate() {
+        if (count === 0) {
+            let count = 1;
+            console.log(count); // What is logged?
+        }
+        console.log(count); // What is logged?
+    })();
+    ```
+
+15. ### What will be the output of the following code?
+    
+    ```js
+    for (var i = 0; i < 3; i++) {
+        setTimeout(function log() {
+            console.log(i); // What is logged?
+        }, 1000);
+    }
+    ```
+
+16. ### What will be the output of the following code?
+    
+    ```js
+    for (var i = 0; i < 3; i++) {
+        setTimeout(function log() {
+            console.log(i); // What is logged?
+        }, 1000);
+    }
+    ```
+    Side Challenge: 
+    - How would you fix this example to log 0, 1, 2 values after passing 1 second?
+    - How would you console 0, 1, 2, 3, ... 10 each after a delay of 1 second ?
+
+17. ### What will be the output of the following code?
+    
+    ```js
+    function createIncrement() {
+        let count = 0;
+        function increment() { 
+            count++;
+        }
+
+        let message = `Count is ${count}`;
+        function log() {
+            console.log(message);
+        }
+        
+        return [increment, log];
+    }
+
+    const [increment, log] = createIncrement();
+    increment(); 
+    increment(); 
+    increment(); 
+    log(); // What is logged?
+    ```
+
+    Side Challenge:
+    - How would you fix log() function to return the message having the actual count value?
+
