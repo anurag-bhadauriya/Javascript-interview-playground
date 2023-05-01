@@ -1,0 +1,16 @@
+{
+    "name": "rxjs_learning",
+    "version": "1.0.0",
+    "description": "1. What is Reactive programming ?\r     Way of building application where our app will react to changes & handle data streams rather than\r     we writing each handle separately.",
+    "main": "1-observable.js",
+    "type": "module",
+    "dependencies": {
+        "rxjs": "^7.8.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}
