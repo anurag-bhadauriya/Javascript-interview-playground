@@ -1,3 +1,7 @@
+/**
+ * How Node.js read the content of a file ?
+ */
+
 const fs = require('fs');
 
 // Reading the file in one shot
