@@ -14,6 +14,10 @@ Hope it helps !
 
 1. NodeJs Basics [  https://github.com/learning-zone/nodejs-basics ]
 2. NodeJs Best Practices [ https://github.com/goldbergyoni/nodebestpractices ]
+
+# Advanced NodeJs Articles
+1. Node.js Child Processes [ https://medium.com/edge-coders/node-js-child-processes-everything-you-need-to-know-e69498fe970a ]
+
 # Angular reources
 1. Angular Basics [ https://github.com/sudheerj/angular-interview-questions ]
 
