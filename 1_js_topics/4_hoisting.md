@@ -159,7 +159,7 @@ References:
 13. ### What will be the output of the following code?
 
     ```js
-        function printA() { 
+    function printA() { 
         a = 1;
     } 
     printA();

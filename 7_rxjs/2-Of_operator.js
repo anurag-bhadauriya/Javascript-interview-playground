@@ -5,13 +5,17 @@ import { of } from 'rxjs';
  * and an object.
  */
 const student1 = of(['Ram', 'Sita', 'Hanuman']);
-const student2 = of('Rajesh');
+const student2 = of('Rajesh', 'Ramesh', 'Suresh');
 const student3 = of({
     name: 'anurag', id: '123'
 });
 
 student1.subscribe(data => {
     console.log('Observable 1: ', data);
+});
+
+student1.subscribe(data => {
+    console.log('---- Observable 1:----- ', data);
 });
 
 student2.subscribe(data => {

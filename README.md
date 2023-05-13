@@ -15,14 +15,24 @@ Hope it helps !
 1. NodeJs Basics [  https://github.com/learning-zone/nodejs-basics ]
 2. NodeJs Best Practices [ https://github.com/goldbergyoni/nodebestpractices ]
 
-# Advanced NodeJs Articles
+## Advanced NodeJs Articles
 1. Node.js Child Processes [ https://medium.com/edge-coders/node-js-child-processes-everything-you-need-to-know-e69498fe970a ]
+2. Difference between the Event Loop in Browser and Node Js? [ https://dev.to/jasmin/difference-between-the-event-loop-in-browser-and-node-js-1113 ]
+3. Creating an idempotent API using nodejs [ https://medium.com/dsc-hit/creating-an-idempotent-api-using-node-js-bdfd7e52a947 ]
 
-# Angular reources
+## Angular reources
 1. Angular Basics [ https://github.com/sudheerj/angular-interview-questions ]
+2. ng-Content Vs ng-container vs ng-template [ https://vibhas1892.medium.com/difference-between-ng-template-ng-container-and-ng-content-a1d264619655#:~:text=To%20sum%20up%2C%20ng%2Dcontent,your%20template%20or%20your%20code. ]
+3. View Encapsulation [ https://vibhas1892.medium.com/what-is-viewencapsulation-in-angular-58d31901901c ]
+4. Life cycle Hooks [ https://www.freecodecamp.org/news/angular-lifecycle-hooks/ ]
+5. Using Shadow DOM [ https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM ]
 
-# Front End Interview
+## Front End Interview
 1. Frontend Interview Handbook [ https://www.frontendinterviewhandbook.com/introduction/ ]
+2. RxJs Scenario Questions [ https://codewithming.hashnode.dev/learn-rxjs-in-an-easy-way-8008f291ef8f ]
+3. Key RxJS Operators Every Angular Developer Should Know [ https://swarajkr.hashnode.dev/understanding-of-subjects-in-angular ]
+4. Understanding of Subjects in Angular [ https://swarajkr.hashnode.dev/understanding-of-subjects-in-angular ]
+5. How to use Angular Observable pipe() [ https://estherwavinya.hashnode.dev/how-to-use-angular-observable-pipe ]
 
 # NodeJs Unit Testing
 1. Concepts & Core [ https://blog.logrocket.com/node-js-unit-testing-mocha-chai-sinon/ ]

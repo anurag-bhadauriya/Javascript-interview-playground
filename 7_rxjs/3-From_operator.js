@@ -14,3 +14,7 @@ const ordersObservable$ = from(orders);
 ordersObservable$.subscribe(data => {
     console.log('Observable 1: ', data);
 });
+
+ordersObservable$.subscribe(data => {
+    console.log('Observable 1: Call 2: ', data);
+});

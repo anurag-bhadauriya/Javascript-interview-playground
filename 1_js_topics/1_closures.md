@@ -259,6 +259,22 @@ References:
     - How would you fix this example to log 0, 1, 2 values after passing 1 second?
     - How would you console 0, 1, 2, 3, ... 10 each after a delay of 1 second ?
 
+    ```js
+    // Solution 1 ( Updating var to let in for loop & time interval)
+    for (let i = 0; i < 3; i++) {
+        setTimeout(function log() {
+            console.log(i);
+        }, 1000 * (i+1));
+    }
+
+    // Solution 2 ( Without updating var to let in for loop)
+    for (var i = 0; i < 3; i++) {
+        setTimeout(function log(j) {
+            console.log(j);
+        }, 1000 * (i+1), i);
+    }
+    ```
+
 17. ### What will be the output of the following code?
     
     ```js
@@ -285,4 +301,28 @@ References:
 
     Side Challenge:
     - How would you fix log() function to return the message having the actual count value?
+
+    ```js
+    // Solution
+    function createIncrement() {
+        let count = 0;
+        function increment() { 
+            count++;
+        }
+
+        let message = () => `Count is ${count}`;
+
+        function log() {
+            console.log(message());
+        }
+        
+        return [increment, log];
+    }
+
+    const [increment, log] = createIncrement();
+    increment(); 
+    increment(); 
+    increment(); 
+    log(); // What is logged?
+    ```
 
