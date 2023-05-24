@@ -28,7 +28,7 @@
     GROUP BY salary ORDER BY salary DESC LIMIT n-1,1;
     ```
 
-3. Write a SQL query to find the employees who have not sold any product.3
+3. Write a SQL query to find the employees who have not sold any product.
 
     ```sql
     SELECT Employee.employee_id, Employee.employee_name

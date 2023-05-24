@@ -22,13 +22,14 @@
         var array3 = new Array(['1',2,'3',4,5.6]);
         console.log(array1); // Output ?
         console.log(array2); // Output ?
+        console.log(array2.length); // Output ?
         console.log(array3); // Output ?
         console.log(array3.length); // Output ?
     }());
     ```
 
     Answer:\
-    [] [] [ Array[5] ] 1
+    [] [] 100 [ Array[5] ] 1
 
 3. ### What will be the output of the following code?
 

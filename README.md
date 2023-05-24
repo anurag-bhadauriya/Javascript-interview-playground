@@ -30,12 +30,20 @@ Hope it helps !
 ## Front End Interview
 1. Frontend Interview Handbook [ https://www.frontendinterviewhandbook.com/introduction/ ]
 2. RxJs Scenario Questions [ https://codewithming.hashnode.dev/learn-rxjs-in-an-easy-way-8008f291ef8f ]
-3. Key RxJS Operators Every Angular Developer Should Know [ https://swarajkr.hashnode.dev/understanding-of-subjects-in-angular ]
+3. Key RxJS Operators Every Angular Developer Should Know ( using a Search functionality ) [ https://www.danywalls.com/key-rxjs-operators-every-angular-developer-should-know ]
 4. Understanding of Subjects in Angular [ https://swarajkr.hashnode.dev/understanding-of-subjects-in-angular ]
 5. How to use Angular Observable pipe() [ https://estherwavinya.hashnode.dev/how-to-use-angular-observable-pipe ]
+6. Typescript [ https://basarat.gitbook.io/typescript/ ]
 
-# NodeJs Unit Testing
+## NodeJs Unit Testing
 1. Concepts & Core [ https://blog.logrocket.com/node-js-unit-testing-mocha-chai-sinon/ ]
 2. Youtube Playlist for Mocha [ https://www.youtube.com/playlist?list=PLgbtO1Bcz4C-vU0JLfDBsZGbSUdNX4mQ8 ]
 3. [ https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha ]
 4. [ https://www.digitalocean.com/community/tutorials/how-to-test-a-node-js-module-with-mocha-and-assert ]
+
+## Design Patterns in Javascript
+1. Object Oriented Programming using Typescript [ https://dev.to/kevin_odongo35/object-oriented-programming-with-typescript-574o ]
+2. Advanced Js Design patterns [ https://dev.to/dhiwise/advanced-javascript-design-patterns-4k8l ]
+3. https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns
+4. https://www.freecodecamp.org/news/javascript-design-patterns-explained/
+5. https://blog.bitsrc.io/my-9-favorite-design-patterns-in-javascript-9d2a09651d08?gi=2446cf15ee06

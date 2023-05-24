@@ -7,6 +7,7 @@ router.get("/", function (req, res) {
 });
 
 router.post("/", function (req, res) {
+  const reqBody = req.body;
   res.send("POST route on things.");
 });
 

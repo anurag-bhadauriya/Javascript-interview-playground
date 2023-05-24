@@ -338,4 +338,3 @@ In this model, you can refer the sub documents in the original document, using r
 
     ![Aggregate Functions in mongo](./0_assets/AGGREGATE_functions_in_mongo.JPG)
 
-- 

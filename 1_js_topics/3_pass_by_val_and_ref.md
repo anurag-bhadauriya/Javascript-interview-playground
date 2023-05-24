@@ -58,14 +58,4 @@ Remember that objects, including arrays are passed by reference while strings, b
     console.log(arrA); // Output ?
     ```
 
-
-7. ### What will be the output of the following code?
-
-    ```js
-    var arrA = [{prop1: "value of array A!!"},  {someProp: "also value of array A!"}, 3,4,5];
-    var arrB = arrA;
-    arrB[0].prop1=42;
-    console.log(arrA); // Output ?
-    ```
-
 ***
